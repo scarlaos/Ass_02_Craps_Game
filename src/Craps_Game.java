@@ -1,7 +1,7 @@
 import java.util.Random;
 import java.util.Scanner;
 
-public class Main {
+public class Craps_Game {
     public static void main(String[] args)
     {
         Random rnd = new Random();
