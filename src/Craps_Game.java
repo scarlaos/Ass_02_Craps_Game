@@ -38,7 +38,7 @@ public class Craps_Game {
                     System.out.println("You must roll and make this point to win with as many rolls as you can, however if you roll a 7, you lose! ");
 
                     while(true){
-                        System.out.println("Type 'roll to roll again, or 'QUIT' to quit: ");
+                        System.out.println("Type 'roll' to roll again: ");
                         done = in.nextLine().trim();
                         initialRoll1 = rnd.nextInt(6) + 1;
                         initialRoll2 = rnd.nextInt(6) + 1;
