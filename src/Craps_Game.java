@@ -40,6 +40,9 @@ public class Craps_Game {
                     while(true){
                         System.out.println("Type 'roll to roll again, or 'QUIT' to quit: ");
                         done = in.nextLine().trim();
+                        initialRoll1 = rnd.nextInt(6) + 1;
+                        initialRoll2 = rnd.nextInt(6) + 1;
+                        initSum = initialRoll1 + initialRoll2;
 
                         if(done.equalsIgnoreCase("roll"))
                         {
