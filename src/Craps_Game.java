@@ -40,6 +40,8 @@ public class Craps_Game {
                     while(true){
                         System.out.println("Type 'roll' to roll again: ");
                         done = in.nextLine().trim();
+                        System.out.println("Die 1 Die 2   Sum");
+                        System.out.println("-------------------");
                         initialRoll1 = rnd.nextInt(6) + 1;
                         initialRoll2 = rnd.nextInt(6) + 1;
                         initSum = initialRoll1 + initialRoll2;
